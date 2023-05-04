@@ -47,12 +47,18 @@
 
 }
 
-@media screen and (max-width: 648px) {
-    .container-fluid a {
+@media screen and (max-width: 688px) {
+    .navbar-brand {
         display: none;
     }
     
     #content {
         padding-top: 15%;
     }
+
+    #content td, th {
+        padding: 3px;
+        font-size: 14px;
+    }
+
 }
