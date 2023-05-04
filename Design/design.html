@@ -15,8 +15,8 @@
     <nav id="navbar" class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="../Home/home.html">Home</a>
-          <a class="navbar-brand" href="tickets.html">Tickets</a>
-          <a class="navbar-brand" href="../ÜberUns/überUns.html">Über Uns</a>
+          <a class="navbar-brand" href="../Tickets/tickets.html">Tickets</a>
+          <a class="navbar-brand" href="überUns.html">Über Uns</a>
           <a class="navbar-brand" href="../TagesPlan/tagesPlan.html">TagesPlan</a>
           <a class="navbar-brand" href="../Essen&Trinken/essenTrinken.html">Essen & Trinken</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -24,13 +24,13 @@
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Fight-Club</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="../Home/home.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -57,57 +57,57 @@
           </div>
         </div>
       </nav>
-            <!-- Inhalt für Ticket Seite -->
-            <div id="tickets" class="text-center">
-              <h1>Zoo Tickets</h1>
-              <p>Willkommen im Online-Shop für Zoo-Tickets! Kaufen Sie hier Ihre Eintrittskarten für einen Tag im Zoo.</p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Tickettyp</th>
-                    <th>Beschreibung</th>
-                    <th>Preis</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Erwachsene</td>
-                    <td>Ein Ticket für einen Erwachsenen (ab 18 Jahren)</td>
-                    <td>25,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>Kinder</td>
-                    <td>Ein Ticket für ein Kind (5-17 Jahre)</td>
-                    <td>15,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>Familie</td>
-                    <td>Ein Ticket für zwei Erwachsene und zwei Kinder</td>
-                    <td>60,00 €</td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>Bitte wählen Sie die gewünschte Anzahl und den Tickettyp aus und klicken Sie auf "In den Warenkorb".</p>
-              <form>
-                <div class="form-group">
-                  <label for="ticketType">Tickettyp</label>
-                  <select class="form-control" id="ticketType">
-                    <option>Erwachsene</option>
-                    <option>Kinder</option>
-                    <option>Familie</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="quantity">Anzahl</label>
-                  <input type="number" class="form-control" id="quantity" min="1" max="10" value="1">
-                </div>
-                <button type="submit" class="btn btn-primary">In den Warenkorb</button>
-              </form>
-            </div>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-          <!-- Inhalt  für Ticket Seite -->
+      <!-- Inhalt für Ticket Seite -->
+      <div id="tickets" class="text-center">
+        <h1>Zoo Tickets</h1>
+        <p>Willkommen im Online-Shop für Zoo-Tickets! Kaufen Sie hier Ihre Eintrittskarten für einen Tag im Zoo.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Tickettyp</th>
+              <th>Beschreibung</th>
+              <th>Preis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Erwachsene</td>
+              <td>Ein Ticket für einen Erwachsenen (ab 18 Jahren)</td>
+              <td>25,00 €</td>
+            </tr>
+            <tr>
+              <td>Kinder</td>
+              <td>Ein Ticket für ein Kind (5-17 Jahre)</td>
+              <td>15,00 €</td>
+            </tr>
+            <tr>
+              <td>Familie</td>
+              <td>Ein Ticket für zwei Erwachsene und zwei Kinder</td>
+              <td>60,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Bitte wählen Sie die gewünschte Anzahl und den Tickettyp aus und klicken Sie auf "In den Warenkorb".</p>
+        <form>
+          <div class="form-group">
+            <label for="ticketType">Tickettyp</label>
+            <select class="form-control" id="ticketType">
+              <option>Erwachsene</option>
+              <option>Kinder</option>
+              <option>Familie</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="quantity">Anzahl</label>
+            <input type="number" class="form-control" id="quantity" min="1" max="10" value="1">
+          </div>
+          <button type="submit" class="btn btn-primary">In den Warenkorb</button>
+        </form>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Inhalt  für Ticket Seite -->
       <footer id="footer" class="bg-dark text-center text-white"> 
         <div class="container p-4">
           <section class="">

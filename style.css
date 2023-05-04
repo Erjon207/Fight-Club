@@ -1,3 +1,44 @@
+#tickets { 
+  background-color: grey;
+  padding: 10%;
+
+}
+
 #footer {
-    margin-top: 60%;
+  width: 100%;
+    
+}
+
+#location {
+  width: 100%;
+  height: auto;
+
+}
+
+#e3LOGO{
+  width: 25%;
+  height: auto;
+
+}
+
+.container-fluid a:hover{ 
+  transform: scale(1.1); 
+  background-color: #111;
+
+}
+
+.container-fluid a {
+    padding: 5px;
+    transition: all .2s ease-in-out;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 598px) {
+    .container-fluid a {
+        display: none;
+    }
+    
+    #tickets {
+        padding-top: 15%;
+    }
 }
