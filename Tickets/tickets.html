@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>  
+  <!-- navbar -->
     <nav id="navbar" class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="../Home/home.html">Home</a>
@@ -30,10 +31,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="../Home/home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="tickets.html">Tickets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../ÜberUns/überUns.html">Über Uns</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Tagesplan/tagesPlan.html">TagesPlan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Essen&Trinken/essenTrinken.html">Essen & Trinken</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,18 +59,15 @@
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </div>
       </nav>
-            <!-- Inhalt für Ticket Seite -->
-            <div id="tickets" class="text-center">
+        <!-- navbar -->
+          <!-- Inhalt für Ticket Seite -->
+            <div id="content" class="text-center">
               <h1>Zoo Tickets</h1>
-              <p>Willkommen im Online-Shop für Zoo-Tickets! Kaufen Sie hier Ihre Eintrittskarten für einen Tag im Zoo.</p>
+              <p>Willkommen im Online-Shop für Zoo-Tickets! Kaufen Sie hier Ihre Eintrittskarten für einen Tag im Zoo Fight-Club.</p>
               <table class="table">
                 <thead>
                   <tr>
@@ -71,19 +78,24 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Erwachsene</td>
+                    <td>Grosses Känguru</td>
                     <td>Ein Ticket für einen Erwachsenen (ab 18 Jahren)</td>
-                    <td>25,00 €</td>
+                    <td>15.00 Fr</td>
                   </tr>
                   <tr>
-                    <td>Kinder</td>
+                    <td>Kleines Känguru</td>
                     <td>Ein Ticket für ein Kind (5-17 Jahre)</td>
-                    <td>15,00 €</td>
+                    <td>7.50 Fr</td>
                   </tr>
                   <tr>
-                    <td>Familie</td>
+                    <td>Baby Känguru</td>
+                    <td>Gratis für ein Kind (unter 5 Jahre)</td>
+                    <td>Free</td>
+                  </tr>
+                  <tr>
+                    <td>Familie Känguru</td>
                     <td>Ein Ticket für zwei Erwachsene und zwei Kinder</td>
-                    <td>60,00 €</td>
+                    <td>40.00 Fr</td>
                   </tr>
                 </tbody>
               </table>
@@ -107,70 +119,70 @@
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-          <!-- Inhalt  für Ticket Seite -->
-      <footer id="footer" class="bg-dark text-center text-white"> 
-        <div class="container p-4">
-          <section class="">
-            <form action="">
-              <div class="row d-flex justify-content-center">
-                <div class="col-auto">
-                  <p class="pt-2">
-                    <strong>Fight-Club</strong>
-                  </p>
+            <!-- Inhalt  für Ticket Seite -->
+        <!-- footer -->
+        <footer id="footer" class="bg-dark text-center text-white">     
+          <div class="container p-4">
+            <section class="">
+              <form action="">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Känguru Fight-Club</strong>
+                    </p>
+                </div>
+              </form>
+            </section>
+            <section class="mb-4">
+            </section>
+            <section class="">
+              <div class="row">
+                <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Kontakte:</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <p class="text-white">Nummer: 077 423 67 07</p>
+                    </li>
+                    <li>
+                      <p class="text-white">1. E-Mail: erjon.thaqi@lernende.bbw.ch</p>
+                    </li>
+                    <li>
+                      <p class="text-white">2. E-Mail: e3cthe@e3ag.net</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Our Lokations:</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d869.3438072953489!2d8.73467619009965!3d47.343546578147496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479abb518a16398b%3A0x3d1e46e72a576879!2sSt%C3%B6cklerstrasse%202%2C%208610%20Uster!5e1!3m2!1sde!2sch!4v1683185939035!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                  </ul>
+                </div>
+                <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Sponsoren:</h5>  
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://www.e3ag.ch/" class="text-white"><img id="e3LOGO" src="../Images/e3_white_medium.png" alt="Bild mit e3 AG LOGO"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Datenschutzverordnug:</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a class="text-white">click to Download</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </form>
-          </section>
-          <section class="mb-4">
-          </section>
-          <section class="">
-            <div class="row">
-              <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Kontakte:</h5>
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <p class="text-white">Nummer: 077 423 67 07</p>
-                  </li>
-                  <li>
-                    <p class="text-white">1. E-Mail: erjon.thaqi@lernende.bbw.ch</p>
-                  </li>
-                  <li>
-                    <p class="text-white">2. E-Mail: e3cthe@e3ag.net</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Our Lokations:</h5>
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d869.3438072953489!2d8.73467619009965!3d47.343546578147496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479abb518a16398b%3A0x3d1e46e72a576879!2sSt%C3%B6cklerstrasse%202%2C%208610%20Uster!5e1!3m2!1sde!2sch!4v1683185939035!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </li>
-                </ul>
-              </div>
-              <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Sponsoren:</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://www.e3ag.ch/" class="text-white"><img id="e3LOGO" src="../Images/e3_white_medium.png" alt="Bild mit e3 AG LOGO"></a>
-                  </li>
-                </ul>
-              </div>
-              <div id="kontakte" class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Datenschutzverordnug:</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a class="text-white">click to Download</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-      </footer>
-</body>
+            </section>
+          </div>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+        </footer>
+      <!-- footer -->
+  </body>
 </html>
