@@ -4,6 +4,12 @@
 
 }
 
+#menu { 
+    background-color: antiquewhite;
+    padding: 10%;
+
+}
+
 #footer {
     width: 100%;
     
@@ -40,9 +46,13 @@
     border-radius: 10%;
 }
 
+.col { 
+    margin: 15%; 
+}
+
 #icon {
-    padding: 50px;
-    height: 90%;
+    padding: 15px;
+    height: 80%;
     width: auto;
 
 }
