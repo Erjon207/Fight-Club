@@ -74,9 +74,18 @@
 
 }
 
+#hide {
+    display: none;
+
+}
+
 @media screen and (max-width: 688px) {
     .navbar-brand {
         display: none;
+    }
+
+    #hide {
+        display: block;
     }
     
     #content {
