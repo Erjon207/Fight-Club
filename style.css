@@ -28,6 +28,12 @@
 
 }
 
+#location{
+    width: 60%;
+    height: auto;
+
+}
+
 .container-fluid a:hover{ 
     transform: scale(1.1); 
     background-color: #111;
