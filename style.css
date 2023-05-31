@@ -85,6 +85,12 @@
 
 }
 
+#homeImage {
+    width: 60%;
+    height: 60%;
+
+}
+
 @media screen and (max-width: 688px) {
     .navbar-brand {
         display: none;
